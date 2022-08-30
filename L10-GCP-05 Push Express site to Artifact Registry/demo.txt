@@ -1,0 +1,8 @@
+npx express-generator
+npm install
+
+Locate the port number in /bin/www
+
+npm start
+
+Browse to http://localhost:3000

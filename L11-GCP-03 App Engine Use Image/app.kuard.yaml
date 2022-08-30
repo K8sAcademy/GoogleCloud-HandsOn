@@ -1,0 +1,25 @@
+runtime: custom
+env: flex
+service: kuard
+resources:
+  cpu: 2
+  memory_gb: 2.3
+  disk_size_gb: 10
+network:
+  forwarded_ports:
+    - 80:8080
+liveness_check:
+  path: "/"
+  check_interval_sec: 30
+  timeout_sec: 4
+  failure_threshold: 2
+  success_threshold: 2
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 5
+  cool_down_period_sec: 180
+  cpu_utilization:
+    target_utilization: 0.6
+  target_concurrent_requests: 100
+env_variables:
+  HELLO: "World!"
