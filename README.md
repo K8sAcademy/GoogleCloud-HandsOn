@@ -14,8 +14,8 @@ Backlog: https://github.com/users/guybarrette/projects/1
 
 - Includes all the Fundamentals course modules
 - Duration: 13.5+ hours of video training.
-- 209 lectures.
-- 91 Hands-On labs with step-by-step instructions and source code.
+- 181 lectures.
+- 83 Hands-On labs with step-by-step instructions and source code.
 - Unlimited access for 365 days.
 - Level: Introduction to intermediate.
 - No prerequisites – Ideal for beginners. No coding experience is required.
@@ -80,7 +80,7 @@ Learn how to use Helm to package and deploy applications. Learn about the benefi
 
 ### Monitoring
 
-<img src="hhttps://kubernetesacademy.online/wp-content/uploads/2022/05/cloud_monitoring.png" width=75px>
+<img src="https://kubernetesacademy.online/wp-content/uploads/2022/05/cloud_monitoring.png" width=75px>
 
 Collect, analyze and act on telemetry data gathered from your Kubernetes clusters and containers using the Monitoring and Logging services. Learn also how to use Prometheus and Grafana.
 
