@@ -11,9 +11,7 @@ spec:
   clusterIP: None
   selector:
     run: nginx-sts-demo
-
 ---
-
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
