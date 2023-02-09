@@ -1,7 +1,5 @@
 # L32-GCP-03
 
-![Hands-On Files](https://kubernetesacademy.online/wp-content/uploads/2021/06/checked-files-50px.png)
-
 Connect to a cluster using Cloud Shell
 
 ## Reuse the cluster from the previous lab or create a new cluster cluster
@@ -13,8 +11,6 @@ Create the cluster using the default VM size with a node count of 2
 ## Console
 
 In the Console, locate you cluster,click on the **Connect** button and click on the **Run in Cloud Shell** link.
-
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L32-GCP-03-01.png)
 
 When Cloud Shell opens, hit the Enter key to run the command that was pasted in.
 
@@ -55,12 +51,6 @@ Get the external IP for the **result** service and test in a browser to see the 
 
 Click on the **Open Editor** button and take a look at the YAML files we used.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L32-GCP-03-02.png)
-
 ## Cleanup
 
     Delete the cluster.
-
----
-
-© Copyright AZCode, All Rights Reserved | https://kubernetesacademy.online

@@ -1,7 +1,5 @@
 # L36-GCP-02
 
-![Hands-On Files](https://kubernetesacademy.online/wp-content/uploads/2021/06/checked-files-50px.png)
-
 ## Horizontal Pod Autoscaler
 
 ## Create the deployment
@@ -52,7 +50,3 @@ Press **Ctrl-C** to terminate the loop and type **exit** to terminate the busybo
 
     kubectl delete -f pod.yaml --grace-period=0 --force
     kubectl delete -f deploy.yaml
-
----
-
-© Copyright AZCode, All Rights Reserved | https://kubernetesacademy.online

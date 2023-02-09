@@ -14,11 +14,8 @@ Head to https://registry.terraform.io
 
 Locate the GCP provider and click on the **Use Provider** button.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L101-GCP-03-01.png)
-
+!
 Copy the code and paste it in the main.tf file.
-
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L101-GCP-03-02.png)
 
 ## Edit the code
 
@@ -48,29 +45,17 @@ Save the file
 
 Locate the **IAM and admin service** and select **Service accounts**.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L101-GCP-03-03.png)
-
 Click the **Create Service Account** link at the top of the screen.
-
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L101-GCP-03-04.png)
 
 Name the account, click **Create and Continue**.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L101-GCP-03-05.png)
-
 Usually, you would grant granual rights to a service account but for the sake of time, we will use the quick and easy way granting our service account the Editor role.. In the **Quick Access** list, select **Basic** and then the **Editor** role.
-
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L101-GCP-03-06.png)
 
 Leave the 3rd step blank and click on **Done**.
 
 Click on the **Keys** tab and create a new Json key.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L101-GCP-03-07.png)
-
 The key will be downloaded as a JSON file. Locate the file and copy it in the lab folder.
-
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L101-GCP-03-08.png)
 
 Edit the main.tf file, replace the **<NAME>** placeholder with your file's name.
 

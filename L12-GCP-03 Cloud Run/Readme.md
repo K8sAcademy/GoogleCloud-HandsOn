@@ -46,11 +46,7 @@ You can also filter values like this
 
 Head to the console and locate the Cloud Run instance.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L12-GCP-03-01.png)
-
 Click on the Revisions tab. Select the revision and look at the configuration on the right of the screen.
-
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L12-GCP-03-02.png)
 
 ## Update the config
 
@@ -58,15 +54,9 @@ Let's change the Concurrency value from the default 80 to 100.
 
 Click on the **YAML** tab and then on the **Edit** button. Locate the **containerConcurrency** property and set it to 100.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L12-GCP-03-03.png)
-
 You get a warning that you need to rename the revision. Remember, a revision (image + config) is immutable. Change the name and a **Save and Deploy New Revision** button will appear.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L12-GCP-03-04.png)
-
 Click on the **Revisions** tab. Locate the new revision and validate that the Concurrency value is set to 100.
-
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L12-GCP-03-05.png)
 
 ## Deploy Hello v2
 
@@ -84,6 +74,3 @@ Validate
 
     gcloud run services list 
 
----
-
-© Copyright AZCode, All Rights Reserved | https://kubernetesacademy.online

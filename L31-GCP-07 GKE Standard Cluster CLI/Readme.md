@@ -23,8 +23,3 @@ Get more info
 ## Cleanup
 
     gcloud container clusters delete cluster-1
-
----
-
-© Copyright AZCode, All Rights Reserved | https://kubernetesacademy.online
-

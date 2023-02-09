@@ -1,7 +1,5 @@
 # L104-GCP-02
 
-![Hands-On Files](https://kubernetesacademy.online/wp-content/uploads/2021/06/checked-files-50px.png)
-
 ## Key file
 
 Copy the service account key file.

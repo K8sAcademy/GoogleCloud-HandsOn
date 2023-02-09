@@ -1,7 +1,5 @@
 # L34-GCP-03
 
-![Hands-On Files](https://kubernetesacademy.online/wp-content/uploads/2021/06/checked-files-50px.png)
-
 Compute Engine Persistent Disks
 
 ## Validate that the default StorageClasses are available
@@ -50,6 +48,3 @@ Compute Engine Persistent Disks
     kubectl delete -f pod.yaml --grace-period=0 --force
     kubectl delete -f pvc.yaml
 
----
-
-© Copyright AZCode, All Rights Reserved | https://kubernetesacademy.online

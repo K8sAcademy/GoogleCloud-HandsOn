@@ -1,7 +1,5 @@
 # L36-GCP-04
 
-![Hands-On Files](https://kubernetesacademy.online/wp-content/uploads/2021/06/checked-files-50px.png)
-
 ## Scaling Nodes
 
 ## Create a new cluster
@@ -34,6 +32,3 @@ List the nodes
 
     gcloud container clusters delete auto-cluster-1 --zone us-central1-c 
 
----
-
-© Copyright AZCode, All Rights Reserved | https://kubernetesacademy.online

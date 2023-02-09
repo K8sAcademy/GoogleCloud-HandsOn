@@ -6,8 +6,6 @@
 
 Using the Console is the easiest way. Select your cluster and click on the **Upgrade Available** icon.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L37-GCP-02-01.png)
-
 ---
 
 # Using the CLI
@@ -31,7 +29,3 @@ This will trigger an upgrade to the node pools if they are set for auto-upgrade.
 Trigger an update for node pools not set for auto-upgrade.
 
     gcloud container clusters upgrade CLUSTER_NAME --node-pool=NODE_POOL_NAME
-
----
-
-© Copyright AZCode, All Rights Reserved | https://kubernetesacademy.online

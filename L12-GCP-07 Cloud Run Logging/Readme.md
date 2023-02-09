@@ -32,14 +32,10 @@ Open a browser and navigate.
 
 Locate the service in the Console and select the Logs tab.  Kuard output some log info.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L12-GCP-07-01.png)
-
 ## View logs in Cloud Logging
 
 Use the top searchbox to locate the **Logging** service. In the left menu, select **Logs Explorer**.
 In the **Log Fields** section, select **Cloud Run Revision** and kard as the **Service Name**.
-
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L12-GCP-07-02.png)
 
 ## Monitor in Cloud Run
 
@@ -53,8 +49,6 @@ Use this metric: Clour Run Revision | Request_count | Request Count
 
 Refrest the kuard page in the browser a few times hitting F5. You should see the request/s graph shows some values.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L12-GCP-07-03.png)
-
 ## Cleanup
 
 Delete the hello service
@@ -65,7 +59,4 @@ Validate
 
     gcloud run services list 
 
----
-
-© Copyright AZCode, All Rights Reserved | https://kubernetesacademy.online
 

@@ -1,7 +1,5 @@
 # L102-GCP-03
 
-![Hands-On Files](https://kubernetesacademy.online/wp-content/uploads/2021/06/checked-files-50px.png)
-
 ## Create a new GKE
 
 We'll use the google_container_cluster resource from the Google prodider. The documentation is available here:

@@ -1,7 +1,5 @@
 # L10-GCP-05
 
-![Hands-On Files](https://kubernetesacademy.online/wp-content/uploads/2021/06/checked-files-50px.png)
-
 Push/Pull an image to Artifact Registry
 
 ## New project
@@ -37,19 +35,11 @@ In the Console locate the Artifact Registry service.
 
 Click on the **Create Repository** link.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L10-GCP-05-01.png)
-
 Set the format to **Docker**, the location type to **Region** and the encryption to **Google Managed**. Click on **Create**.
-
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L10-GCP-05-02.png)
 
 Select the newly created repo.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L10-GCP-05-03.png)
-
 Click on the **Add Principal** button located to the right of the screen. Tyle **allUsers** and select the **Artifact Registry Reader**. This will allow anyone to access the repository.
-
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L10-GCP-05-04.png)
 
 ## Build the image
 
@@ -116,8 +106,6 @@ Let’s first make a change to the code, build a new image and tag it as version
 ## Code change
 
 In code, locate the index.js file in the routes folder. Change the title value from Express to **Express2**. Save the file.
-
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/01/L10-DO-05-02.png)
 
 ## Build the image
 

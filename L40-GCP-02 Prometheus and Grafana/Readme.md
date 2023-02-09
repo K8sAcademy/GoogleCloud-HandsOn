@@ -1,7 +1,5 @@
 # L40-GCP-02
 
-![Hands-On Files](https://kubernetesacademy.online/wp-content/uploads/2021/06/checked-files-50px.png)
-
 Let's deploy Prometheus and Grafana in our cluster.
 
 ## Prometheus Stack
@@ -33,8 +31,6 @@ Launch the Kuard Web app using the IP address you got earlier.
 
 Click on Keygen Workload, check the Enabled checkbox and click on Submit.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2021/08/L40-02-01.png)
-
 ## Expose the Grafana dashboard
 
 Deploy a load balancer
@@ -48,15 +44,9 @@ Password: prom-operator
 
 Click on the **dashboard icon** and select **Manage**.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2021/08/L40-02-02.png)
-
 Select **Nodes**.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2021/08/L40-02-03.png)
-
 You should see some metrics for the nodes.
-
-![image](https://kubernetesacademy.online/wp-content/uploads/2021/08/L40-02-04.png)
 
 ## Delete the autoscaler
 

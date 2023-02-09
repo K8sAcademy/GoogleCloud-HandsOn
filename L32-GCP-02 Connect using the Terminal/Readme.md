@@ -1,7 +1,5 @@
 # L32-GCP-02
 
-![Hands-On Files](https://kubernetesacademy.online/wp-content/uploads/2021/06/checked-files-50px.png)
-
 Deploy an app to GKE
 
 ## Create the cluster
@@ -53,11 +51,7 @@ Get the external IP for the **result** service and test in a browser to see the 
 
 Open the Console and click on the Workloads menu to see the pods.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L32-GCP-02-01.png)
-
 Click on the Workloads menu to see the services.
-
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L32-GCP-02-02.png)
 
 ## Delete the app
 
@@ -65,7 +59,3 @@ Click on the Workloads menu to see the services.
     kubectl delete ns vote
 
     Don't delete the cluster, we will use it in the next lab.
-
----
-
-© Copyright AZCode, All Rights Reserved | https://kubernetesacademy.online

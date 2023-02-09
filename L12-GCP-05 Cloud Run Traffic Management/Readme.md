@@ -42,8 +42,6 @@ Describing the service will list the URLs for the service and for both revisions
 
 The Console will display the 100% of the traffic will be sent to the v2 revision.
 
-![image](https://kubernetesacademy.online/wp-content/uploads/2022/07/L12-GCP-05-01.png)
-
 ## Split traffic between revision 1 and 2
 
 Update the traffic sending 50% to the v1 revision.
@@ -82,6 +80,3 @@ Validate
 
     gcloud run services list 
 
----
-
-© Copyright AZCode, All Rights Reserved | https://kubernetesacademy.online

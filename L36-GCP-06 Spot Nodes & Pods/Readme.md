@@ -1,7 +1,5 @@
 # L36-GCP-06
 
-![Hands-On Files](https://kubernetesacademy.online/wp-content/uploads/2021/06/checked-files-50px.png)
-
 Let's save money by creating a spot node pool
 
 ## Create the cluster

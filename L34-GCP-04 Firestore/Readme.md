@@ -1,7 +1,5 @@
 # L34-GCP-04
 
-![Hands-On Files](https://kubernetesacademy.online/wp-content/uploads/2021/06/checked-files-50px.png)
-
 ## Filestore CSI driver
 
 If you haven't installed the Filestore CSI driver at the cluster (standard) creation, you can enable it using
@@ -60,6 +58,3 @@ This will take a few minutes to provision.
     kubectl delete -f pod.yaml --grace-period=0 --force
     kubectl delete -f pvc.yaml
 
----
-
-© Copyright AZCode, All Rights Reserved | https://kubernetesacademy.online
